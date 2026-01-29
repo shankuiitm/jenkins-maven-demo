@@ -5,6 +5,7 @@ pipeline {
         maven 'M3'
     }
 
+    stages {
         stage('Build') {
             steps {
                 sh 'mvn clean compile'
@@ -44,4 +45,4 @@ pipeline {
             echo '❌ Maven CI/CD pipeline failed'
         }
     }
-
+}
