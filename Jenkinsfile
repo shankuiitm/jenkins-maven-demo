@@ -44,4 +44,4 @@ pipeline {
             echo '❌ Maven CI/CD pipeline failed'
         }
     }
-}
+
